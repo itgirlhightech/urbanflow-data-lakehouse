@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables
+.env
+
+# Data and generated lakehouse files
+data/raw/*
+data/quarantine/*
+lakehouse/
+!data/raw/.gitkeep
+!data/quarantine/.gitkeep
+
+# Spark
+spark-warehouse/
+metastore_db/
