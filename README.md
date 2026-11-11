@@ -63,6 +63,7 @@ The workflow was successfully executed using Docker Compose and Airflow's Celery
 
 ## Project Structure
 
+```text
 urbanflow-data-lakehouse/
 ├── assets/
 │   └── imgs/
@@ -84,6 +85,7 @@ urbanflow-data-lakehouse/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
 ## Running the Project
 
